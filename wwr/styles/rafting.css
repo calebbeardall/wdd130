@@ -15,16 +15,22 @@
     --nav-hover-background-color: lightgray;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    max-width: 750px;
+main {
+    width: 950px;
+    height: auto;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 nav a:link, nav a:visited, a:hover {
     text-decoration: none;
     color:black;
+    margin: 0 auto;
+
 }
 
 body {
@@ -32,52 +38,40 @@ body {
     color:black;
 }
 
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
-p {
-    margin: 20px;
-}
-
 .hero {
     position: relative;
-    width: 100%;
-    height: auto;
 }
 
 .hero img {
-    display: block;
-    width:100%;
+    width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 
 .hero h1 {
     position: absolute;
     text-align: center;
     width: 100%;
-    top: 100px;
-    left: 0;
+    height: auto;
+    margin: 0 auto;
+    top: 10%;
     background-color: rgba(0,0,0,0.25);
     color: white;
 }
 
 .hero article img {
+    width: 200px;
+    height:auto;
     float: right;
-    margin: 20px;
-    width: 33%;
-    height: auto;
 }
 
-.hero article p {
+.hero article {
     position: absolute;
-    text-align: left;
-    margin: 20px;
-    padding: 20px;
-    top: 200px;
+    width: 90%;
+    height:auto;
+    padding: 2.5%;
+    top: 225px;
+    left: 2.5%;
     background-color: rgba(0,0,0,0.25);
     color: white;
-    height:200px;
 }
