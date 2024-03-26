@@ -71,7 +71,7 @@ aside {
 aside h2 {
     position: absolute;
     top: 30px;
-    left: 133px;
+    left: 90px;
 }
 
 aside img {
@@ -86,10 +86,11 @@ header, .grid, footer {
 
 footer {
     border-top: 1px solid;
+    display: flex;
+    justify-content: center;
 }
 
 ul {
-    padding: 20px;
     text-align: left;
 }
 
