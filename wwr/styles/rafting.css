@@ -253,7 +253,7 @@ footer {
     height: auto;
 }
 
-.team h2 {
+.team h1 {
     grid-column: 1/4;
     grid-row: 1/2;
     color: var(--accent2-color);
