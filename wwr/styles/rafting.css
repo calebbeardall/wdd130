@@ -360,7 +360,91 @@ form label {
     font-family: var(--heading-font);
 }
 
+/* Trip */
 
+.trips-top {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 auto;
+}
+
+.trips-top-img {
+    position: relative;
+    width: 100%;
+}
+
+.contact-us-button {
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+    top: 262.5px;
+    left: 212.5px;
+    text-align: center;
+    border: 5px var(--accent2-color);
+    text-decoration: none;
+    border-radius: .5rem;
+}
+
+table {
+    border-spacing: 0;
+    border: 2px rgb(140 140 140);
+    width: 100%;
+    padding: 20px 25px 25px 25px;
+    background-color: var(--accent1-color);
+    text-align: left;
+}
+
+.trips-top-table caption {
+    padding: 25px 0 0 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: var(--accent1-color);
+}
+  
+  thead > tr {
+    background-color:#eef8f8;
+    vertical-align: bottom;
+    text-align: center;
+  }
+  
+  th,
+  td {
+    border: 1px solid rgba(0,0,0,0.25);
+    padding: 4px 6px;
+  }
+
+  th {
+    font-size: 1.1rem;
+  }
+
+  .locations {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    width: 950px;
+    background-color:#eef8f8;
+  }
+
+  .locations div {
+    width: 275px;
+    padding: 0 0 25px 0;
+  }
+
+  .locations img {
+    width: 100%;
+  }
+
+  .wireframe-trips {
+    display: grid;
+    align-items: center;
+    text-decoration: none;
+    padding: 25px;
+  }
 
 
 
