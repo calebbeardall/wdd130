@@ -256,7 +256,7 @@ footer {
 .team h1 {
     grid-column: 1/4;
     grid-row: 1/2;
-    color: var(--accent2-color);
+    color: white;
     margin: 0 auto;
     height: 100px;
     display: grid;
@@ -356,8 +356,9 @@ form label {
     padding: 10px;
     margin: 20px 0 0 0;
     background-color: var(--secondary-color);
-    color: var(--accent2-color);
+    color: white;
     font-family: var(--heading-font);
+    border-radius: .5rem;
 }
 
 /* Trip */
@@ -380,7 +381,7 @@ form label {
     padding: 10px;
     margin: 0 auto;
     background-color: var(--secondary-color);
-    color: var(--accent2-color);
+    color: white;
     font-family: var(--heading-font);
     top: 262.5px;
     left: 212.5px;
@@ -446,9 +447,110 @@ table {
     padding: 25px;
   }
 
+  /* Index */
 
+.index-top img {
+    position: relative;
+    width: 950px;
+}
 
+.index-top h1 {
+    position: absolute;
+    text-align: center;
+    top: 175px;
+    width: 950px;
+    background-color: rgba(0,0,0,0.25);
+    color: white;
+}
 
+.index-middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--accent1-color);
+}
 
+.index-middle-img {
+    width: 100%;
+    position: relative
+}
 
+.index-middle-cta p {
+    position: absolute;
+    right: 225px;
+    top: 587.5px;
+    color: white;
+    background-color: rgba(0,0,0,0.25);
+    padding: 25px;
+    width: 300px;
+}
 
+.index-middle-cta a {
+    position: absolute;
+    right: 307.5px;
+    top: 762.5px;
+    padding: 10px 50px 10px 50px;
+    background-color: var(--secondary-color);
+    color: white;
+    font-family: var(--heading-font);
+    text-align: center;
+    border: 5px var(--accent2-color);
+    text-decoration: none;
+    border-radius: .5rem;
+}
+
+/* Newsletter */
+.index-middle form {
+    margin: 0 auto;
+    padding: 20px 0 35px 0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #eef8f8;
+    display: grid;
+}
+
+.index-middle fieldset {
+    justify-self: center;
+    width: 350px;
+}
+
+.index-middle legend {
+    font-size: 1rem;
+    padding: 0 10px 0 10px;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+}
+
+.index-middle-name {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.1rem;
+}
+
+.index-middle-name label,
+.index-middle-name input {
+    grid-column: 1/3;
+    text-align: left;
+    
+}
+
+.index-middle-email {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.1rem;
+}
+
+.index-middle-email label,
+.index-middle-email input {
+    grid-column: 1/3;
+    text-align: left;
+}
+
+.send-info {
+    margin: 15px 0 5px 0;
+    width: 200px;
+    padding: 10px;
+    background-color: var(--secondary-color);
+    color: white;
+    font-family: var(--heading-font);
+    border-radius: .5rem;
+}
