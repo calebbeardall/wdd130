@@ -369,22 +369,26 @@ form label {
     margin: 0 auto;
 }
 
+.trips-top div {
+    position: relative;
+}
+
 .trips-top-img {
     position: relative;
     width: 100%;
 }
 
 .contact-us-button {
+    margin: 0 auto;
     position: absolute;
-    z-index: 1;
+    top: 125px;
+    left: 47.5px;
     width: 200px;
     padding: 10px;
     margin: 0 auto;
     background-color: var(--secondary-color);
     color: white;
     font-family: var(--heading-font);
-    top: 262.5px;
-    left: 212.5px;
     text-align: center;
     border: 5px var(--accent2-color);
     text-decoration: none;
@@ -471,23 +475,26 @@ table {
 
 .index-middle-img {
     width: 100%;
-    position: relative
 }
 
-.index-middle-cta p {
+.index-middle-div {
+    position: relative;
+}
+
+.index-middle-p {
     position: absolute;
-    right: 225px;
-    top: 587.5px;
+    right: -412.5px;
+    top: -275px;
     color: white;
     background-color: rgba(0,0,0,0.25);
     padding: 25px;
     width: 300px;
 }
 
-.index-middle-cta a {
+.index-middle-a {
     position: absolute;
-    right: 307.5px;
-    top: 762.5px;
+    right: -332.5px;
+    top: -100px;
     padding: 10px 50px 10px 50px;
     background-color: var(--secondary-color);
     color: white;
