@@ -561,3 +561,62 @@ table {
     font-family: var(--heading-font);
     border-radius: .5rem;
 }
+
+.standard-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.standard-info img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+.standard-info div {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    display: grid;
+    align-items: center;
+    text-align: left;
+    padding: 25px 25px 25px 50px;
+    background-color: var(--accent1-color);
+    
+}
+
+.adventure-info {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-row: 1/2;
+}
+
+.adventure-info img {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 100%;
+}
+
+.adventure-info div {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    display: grid;
+    align-items: center;
+    text-align: left;
+    padding: 25px 25px 25px 50px;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.adventure-info h3 {
+    color: white;
+}
+
+.wireframe-index {
+    display: grid;
+    align-items: center;
+    text-decoration: none;
+    padding: 25px;
+  }
